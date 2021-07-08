@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+body{
+     margin: 0;
+     padding: 0;
+     background: radial-gradient(148.19% 189.84% at -24.31% -17.21%, #273037 0.20%, #050406 67.22%);
+     background-repeat: no-repeat;
+     font-family: 'Mukta', sans-serif;
+    
+  
+    
+}
+
+.header__container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+    
+}
+
+.brand__content{
+    margin: 0px 0px 0px 44px;
+    cursor: pointer;
+}
+
+
+.brand__logo{
+    width: 50px;
+   
+}
+
+.brand__title{
+    width: 187px;
+}
+
+
+
+
+.navigation__links, .nav__item{
+    display: flex;
+    
+}
+
+
+
+.nav__item li a{
+    text-decoration: none;
+    color: #cacaca;
+    font-family: 'Poppins', sans-serif;
+    padding: 55px;
+    transition: 0.5s;
+    
+}
+
+.nav__item li a:hover{
+    color: #8a8787;
+    
+}
+
+.nav__item li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.btn__content{
+    margin: 0px 55px 0px 0px;
+    cursor: pointer;
+}
+
+
+.login__btn{
+    width: 129px;
+    height: 51px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s ;
+    
+}
+
+
+
+
+
+.signup__btn{
+    width: 129px;
+    height: 51px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0px 0px 0px 18px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    
+}
+
+.signup__btn:hover{
+   background-color: #0c0c0c;
+   
+}
+
+.catalog__title{
+    text-align: center;
+    margin-top: 53px;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 1%;
+    
+    
+}
+
+.catalog__header{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+   
+  
+}
+
+
+.in__box{
+    border: 2px solid #00D3FF;
+    width: 85px;
+    height: 38px;
+    border-radius: 50px;
+    color:  #00D3FF;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.games__genres{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0px 0px 0px;
+}
+
+
+
+   
+
+h2{
+   
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+
+h2:hover{
+    color: #00D3FF;
+    
+}
+
+
+.catalog__bg{
+    background: url("images/catalog-opacity.png");
+    
+}
+
+
+.catalog__column{
+    margin-top: 50px;
+}
+
+.catalog__row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 32px;
+}
+
+
+.catalog__row img{
+  margin-top: 50px;
+  cursor: pointer;
+  transform: rotate(5deg);
+  transition: 0.5s;
+}
+
+
+.catalog__row img:hover{
+    transform: translate(20px);
+}
+
+
+
+
+
+
+hr{
+    border-color: #02C7E3;
+   
+}
+
+.footer__cont {
+    margin-top: 120px;
+  
+}
+
+.footer__cont img{
+    width: 230px;
+}
+
+input{
+    width: 361px;
+    height: 40px;
+    margin-top: 25px;
+    color:#9e9e9e ;
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 0px 0px 0px 23px;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.5s;
+}
+
+input:focus{
+    border: 1px solid #4FE9FB;
+}
+
+.footer__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn__input{
+    width: 50px;
+}
+
+.footer__end{
+    margin-top: 50px;
+    text-align: center;
+    color: #bbbbbb;
+    font-family:  'Open Sans', sans-serif;
+}
+
+.footer__section img{
+    cursor: pointer;
+}
+
+@media (max-width: 1620px){
+    .catalog__row img{
+        width: 280px;
+    }
+
+    .catalog__row{
+        margin: 22px;
+    }
+}
+
+
+
+
+
+
+
+

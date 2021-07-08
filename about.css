@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+body{
+     margin: 0;
+     padding: 0;
+     background: radial-gradient(148.19% 189.84% at -24.31% -17.21%, #273037 0.20%, #050406 67.22%);
+     background-repeat: no-repeat;
+     font-family: 'Mukta', sans-serif;
+    
+  
+    
+}
+
+.header__container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+    
+}
+
+.brand__content{
+    margin: 0px 0px 0px 44px;
+    cursor: pointer;
+}
+
+
+.brand__logo{
+    width: 50px;
+   
+}
+
+.brand__title{
+    width: 187px;
+}
+
+
+
+
+.navigation__links, .nav__item{
+    display: flex;
+    
+}
+
+
+
+.nav__item li a{
+    text-decoration: none;
+    color: #cacaca;
+    font-family: 'Poppins', sans-serif;
+    padding: 55px;
+    transition: 0.5s;
+    
+}
+
+.nav__item li a:hover{
+    color: #8a8787;
+    
+}
+
+.nav__item li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.btn__content{
+    margin: 0px 55px 0px 0px;
+    cursor: pointer;
+}
+
+
+.login__btn{
+    width: 129px;
+    height: 51px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s ;
+    
+}
+
+
+
+
+
+.signup__btn{
+    width: 129px;
+    height: 51px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0px 0px 0px 18px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    
+}
+
+.signup__btn:hover{
+   background-color: #0c0c0c;
+   
+}
+
+.catalog__title{
+    text-align: center;
+    margin-top: 53px;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    
+    
+}
+
+.catalog__header{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+   
+  
+}
+
+
+.about__content, h2{
+    color: #F3F3F3;
+    font-weight: normal;
+    margin: 55px 0px 0px 0px;
+
+    line-height: 1.9;
+    letter-spacing: 1.9px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ 
+    
+}
+
+.column2{
+    flex-direction: column;
+}
+
+
+.about__btn{
+    background: linear-gradient(82.67deg, #28ABB9 12.01%, #2D6187 86.87%);
+    margin-top: 28px;
+    width: 200px;
+    color: #ffffff;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid  #28ABB9;
+    font-size: 17px;
+    height: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.about__btn:hover{
+    transform: translateY(-10px);
+    background: transparent;
+   
+}
+
+
+hr{
+    border-color: #02C7E3;
+   
+}
+
+.footer__cont {
+    margin-top: 120px;
+  
+}
+
+.footer__cont img{
+    width: 230px;
+}
+
+input{
+    width: 361px;
+    height: 40px;
+    margin-top: 25px;
+    color:#9e9e9e ;
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 0px 0px 0px 23px;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.5s;
+}
+
+input:focus{
+    border: 1px solid #4FE9FB;
+}
+
+.footer__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn__input{
+    width: 50px;
+}
+
+.footer__end{
+    margin-top: 50px;
+    text-align: center;
+    color: #bbbbbb;
+    font-family:  'Open Sans', sans-serif;
+}
+
+.footer__section img{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
